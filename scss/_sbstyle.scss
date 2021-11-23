@@ -1,0 +1,444 @@
+//Begin deel Links
+//zit in general
+.h1-underline{
+  width:100px;
+  height: 20px;
+  border-top:3px solid black;
+
+}
+// einde general
+.sbsmoke{
+  background-color: whitesmoke;
+}
+.sbonzichtbaar{
+  display: none;
+}
+.sbzichtbaar{
+  display: block;
+}
+.sbhide{
+  display: none;
+}
+.sbyb{
+
+  margin: 0;
+  border : none;
+  padding: 8px;
+  border-radius: 0;
+}
+.sbyb:hover{
+  background-color: $blauw;
+  color: $geel;
+  padding: 8px;
+  margin: 0;
+  border : none;
+  border-radius: 0;
+}
+
+.sbh5hover::before {
+  transform: scaleX(0);
+  transform-origin: top right;
+}
+
+.sbh5hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: top left;
+}
+
+.sbh5hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .5s ease;
+}
+
+.sbh5hover {
+  position: relative;
+}
+
+//End deel Links
+//Begin Button page animations
+//button 1
+.rainbowDsb{
+  font-family: "Roboto Light", sans-serif;
+  font-size: 1.2rem;
+  width: 131px;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+.rainbowDsb:before{
+  content: '';
+  background: -o-linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  -webkit-animation: glowing 20s linear infinite;
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+
+
+
+.rainbowDsb:active:after{
+  background: transparent;
+}
+
+.rainbowDsb:hover:before{
+  opacity: 1;
+}
+
+.rainbowDsb:after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+@-webkit-keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+//End Button 1
+//button 2 hover
+.sbbutton2{
+  font-family: "Roboto Light", sans-serif;
+  width: 131px;
+  height: 45px;
+  border-radius: 10px;
+  color: white;
+}
+.sbbutton2:hover{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+//end button 2 hover
+//button 3
+.sbshine {
+  position: relative;
+  margin: 0;
+  padding: 5px 12px;
+  width: 131px;
+  height: 45px;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border-radius: 10px;
+  color: #1d89ff;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  &:hover {
+    animation: rotate 0.7s ease-in-out both;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-5deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+.sbshine {
+  overflow: hidden;
+  position: relative;
+  &:after {
+    background: #38b8ef;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .4;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+  }
+  &:hover {
+    &:after {
+      left: 120%;
+      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+}
+
+// end button 3
+//End Button page animations
+// begin form 1
+
+.images {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 22%;
+  margin: 1%;
+  left: 20px;
+  text-align: center
+}
+// end form 1
+// begin form 2
+#sbform2{
+  .sbthanks,
+  .sbheading,
+  .sub-heading1,
+  .btn-green {
+    text-transform: uppercase
+  }
+
+  .box {
+    margin: auto
+  }
+
+  .sbheading {
+    font-weight: bold;
+    font-size: 85px;
+    color: #ffffff
+  }
+
+  .sub-heading1 {
+    padding: 8px 0 8px 0;
+    margin-bottom: 2px;
+    color: #64FFDA
+  }
+
+  .sub-heading2 {
+    padding: 0px 0 8px 0;
+    margin-bottom: 30px;
+    color: #9E9E9E
+  }
+
+  .card {
+    padding-bottom: 30px;
+    padding-top: 35px;
+    background-color: #263238;
+    border-radius: 0
+  }
+
+  #e-mail {
+    height: 45px
+  }
+
+  input.input-box,
+  textarea.input-box {
+    background-color: #ffffff;
+    border: #000000;
+    color: #212121;
+    font-size: 15px;
+    height: 50px !important
+  }
+
+  input.input-box:focus,
+  textarea.input-box:focus {
+    border: 1px solid #64FFDA;
+    color: #212121;
+    box-shadow: 0 0 1px 1px #64FFDA
+  }
+
+  .rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+  }
+  input.btn-green {
+    background-color: #64FFDA;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+    font-weight: bold;
+    height: 50px
+  }
+
+  .thanks {
+    color: #0091EA !important;
+    text-align: center;
+    text-decoration: none;
+  }
+  .conditions {
+    font-size: 12px;
+    color: #546E7A;
+    text-align: center
+  }
+}
+
+// end form 2
+// begin form 3
+//mixins
+@mixin transition-mix ($property: all, $duration: 0.2s, $timing: linear, $delay: 0s) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timing;
+  transition-delay: $delay;
+}
+
+@mixin position-absolute ($top: null, $left: null, $right: null, $bottom: null) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+}
+
+//basic variables
+$theme-font-color: #2c2c2c;
+
+//common styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: {
+    family: 'Muli', sans-serif;
+    size: 16px;
+  }
+  color: $theme-font-color;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.header__btn {
+  @include transition-mix;
+
+  padding: 10px 20px;
+  display: inline-block;
+  margin-right: 10px;
+
+  background-color: #fff;
+  border: 1px solid $theme-font-color;
+  border-radius: 3px;
+
+  cursor: pointer;
+
+  outline: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &.js-active{
+    color: #fff;
+
+    background-color: $theme-font-color;
+  }
+}
+
+//header styles
+.header {
+  max-width: 600px;
+  margin: 50px auto;
+
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 30px;
+
+  font: {
+    size: 2.1rem;
+  }
+}
+
+//content styles
+.content {
+  width: 95%;
+  margin: 0 auto 50px;
+}
+
+//PASSWORD STRENTH ELEMS STYLES
+.password-strength {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+  0 1px 10px 0 rgba(0,0,0,0.12),
+  0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.js-hidden {
+  display: none;
+}
+// end form 3
+// toast 1 //
+.bg-geel-sb{
+  background-color: $geel;
+}
+.bg-blauw-sb{
+  background-color: $blauw;
+  color: $geel;
+}
+// end toast 1//

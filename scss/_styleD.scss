@@ -1,0 +1,188 @@
+//STYLE TEAM D
+//NAVBAR
+
+#mainNavAls{
+  #logoAls{
+    width: auto ;
+    height: 50px;
+  }
+  .navbar-toggler-icon{
+    background-image: url("../imagesD/hamburgermenu.svg");
+  }
+  .navbar-toggler-icon:active{
+    box-shadow: none;
+  }
+  li{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-property: background-color;
+    transition-duration: 400ms;
+  }
+  a{
+    color: $gray-900;
+    font-family: robotore, sans-serif;
+  }
+  li:hover{
+    background-color: $geel;
+  }
+  li:focus{
+    background-color: $geel;
+  }
+}
+//EINDE NAVBAR
+
+//Begin deel Aside Bar
+
+.btn-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+
+  &:hover {
+    color: rgba(0, 0, 0, .85);
+    background-color: $geel;
+  }
+
+  &:focus{
+    box-shadow: none;
+  }
+
+  &::before{
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+  }
+
+  &[area-expanded="true"]{
+    color: rgba(0, 0, 0, .85);
+  }
+  &[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+}
+#home-collapse::before{
+  content:"";
+}
+
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    background-color: $geel;
+    color: $blue;
+  }
+}
+
+.bg-lichtgroen-Ddk{
+  background-color: #f4f9fb;
+}
+
+.bg-geel-Ddk{
+  background-color: $geel;
+}
+
+#k-nuttigelinks{
+  transition: background-color 0.4s ease,color 0.4s ease;
+  text-decoration:none ;
+
+  &:hover{
+    background-color: $blauw;
+    color: #fff;
+  }
+}
+.k-myItem{
+  display: block;
+  height:200px;
+  background-color: $gray-400;
+}
+
+
+//End deel Aside Bar
+//Begin deel Snippets
+.h1-underline{
+  width:100px;
+  height: 20px;
+  border-top:3px solid black;
+}
+
+.rondDjv {
+  border-radius: 0 0 1rem 1rem;
+  border: solid 5px #FBEB04;
+  box-sizing: unset;
+}
+.snippetDjv {
+  position: relative;
+}
+.snippetbDjv {
+  margin: 10px 10px 0 0;
+  padding: 2px 6px;
+  position: absolute;
+  border-radius: 1rem;
+  opacity: 0;
+  right: 0;
+}
+.codecolorDjv {
+  &:hover {
+    .snippetbDjv {
+      transition: opacity .3s ease-in-out;
+      opacity: 1;
+    }
+  }
+}
+.codecolorDjv {
+  &::-webkit-scrollbar {
+    width: 2em;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #424242;
+    border-radius: 100vw;
+    margin-block: 0.5em;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 75, 144, 1)), to(rgba(0, 187, 174, 1)));
+    background: linear-gradient(0deg, rgba(36, 75, 144, 1) 0%, rgba(0, 187, 174, 1) 100%);
+    border: 0.25em solid #3e4141;
+    border-radius: 1rem;
+    &:hover {
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 75, 144, 1)), to(#477a77));
+      background: linear-gradient(0deg, rgba(36, 75, 144, 1) 0%, #477a77 100%);
+      border-radius: 1rem;
+    }
+  }
+}
+
+
+.nav-tabs .nav-link {
+  background-color: #244B90;
+  color: white;
+  border-color: grey;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color:  #FBEB04;
+  color: #6c757d;
+  border-color: darkgray;
+  font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.text-snippetDjv{
+  font-family: 'Roboto', sans-serif;
+}
+
+#uList .list-group-item:hover{
+  background-color: #999999;
+}
+#list-html{
+  height:400px;
+}
+//End deel Snippets

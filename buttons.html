@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+    <meta content="fullstackdevelopers2022" name="author">
+    <meta content="portfolio klas full stack developers 2021-2022" name="description">
+    <meta content="portfolio developer " name="keywords">
+    <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/_androidstudio.css">
+
+</head>
+<body>
+<header>
+</header>
+<main class="container-fluid">
+    <div class="row bg-lichtgroen-Ddk">
+        <div class="col-12 col-lg-10 col-xxl-8 mx-auto">
+            <div class="row">
+                <!--begin aside bar-->
+                <aside class="col-12 col-lg-3 flex-shrink-0 p-3 " >
+                    <nav class="overflow-auto sticky-lg-top"  style = "max-height: 600px">
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1 mt-3">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed robotobo text-uppercase" data-bs-target="#home-collapse" data-bs-toggle="collapse">
+                                    HOME
+                                </button>
+                                <div class="collapse robotore" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small list-group">
+                                        <li><a class="link-dark" href="snippets.html#home-collapse">Hoe gebruiken</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1 mt-3">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed robotobo text-uppercase" data-bs-target="#meters-collapse" data-bs-toggle="collapse">
+                                    Meters
+                                </button>
+                                <div class="collapse robotore" id="meters-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small list-group">
+                                        <li><a class="link-dark" href="Meter.html#meter1">180° met procent</a></li>
+                                        <li><a class="link-dark" href="Meter.html#meter1">3 x 180° met procent</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed robotobo text-uppercase" data-bs-target="#buttons-collapse" data-bs-toggle="collapse">
+                                    Knoppen
+                                </button>
+                                <div class="collapse show robotore" id="buttons-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small list-group">
+                                        <li><a class="link-dark" href="buttons.html#sbpagebtn1">Rainbow knop</a></li>
+                                        <li><a class="link-dark" href="buttons.html#sbpagebtn2">Rainbow horizontaal</a></li>
+                                        <li><a class="link-dark" href="buttons.html#sbpagebtn3">vullende knop</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed robotobo text-uppercase" data-bs-target="#forms-collapse" data-bs-toggle="collapse">
+                                    Formulieren
+                                </button>
+                                <div class="collapse robotore" id="forms-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small list-group">
+                                        <li><a class="link-dark" href="formsnip.html#sbform1">kredietkaart formulier</a></li>
+                                        <li><a class="link-dark" href="formsnip.html#sbform2">kortings formulier</a></li>
+                                        <li><a class="link-dark" href="formsnip.html#sbform3">paswoord formulier</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="mb-1">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed robotobo text-uppercase" data-bs-target="#other-collapse" data-bs-toggle="collapse">
+                                    Andere
+                                </button>
+                                <div class="collapse robotore" id="other-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small">
+                                        <li><a class="link-dark" href="carouselSnip.html#carousel">Carousel</a></li>
+                                        <li><a class="link-dark" href="carouselSnip.html#sidebar">Sidebar</a></li>
+                                        <li><a class="link-dark" href="carouselSnip.html#list">List</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button aria-expanded="false"
+                                        class="btn btn-toggle align-items-center collapsed text-uppercase" data-bs-target="#toast-collapse"
+                                        data-bs-toggle="collapse">
+                                    Toast
+                                </button>
+                                <div class="collapse robotore" id="toast-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-2 small">
+                                        <li><a class="link-dark" href="toastsnip.html#sbform1">Toast rechts onder</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled  ">
+                            <li class="mb-1">
+                            <li class="border-top my-4"></li>
+                            <li>
+                                <a class="link-secondary robotobo ms-3 py-2 px-3 bg-geel-Ddk shadow-sm" href="links.html"
+                                   id="k-nuttigelinks">nuttige Links</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <!--end aside bar-->
+                <!--begin snippets-->
+                <!-- button1-->
+                <div class="col-12 col-lg-9" id="snippets">
+                    <header class="col-12 mt-5 pb-1">
+                        <h1 class="robotobo fs-1 text-center mt-3 text-uppercase">Buttons</h1>
+                        <div class="col-1 mx-auto h1-underline"></div>
+                    </header>
+                    <article  id="sbpagebtn1"  class="text-snippetDjv pb-5">
+                        <header class="text-center">
+                             <h2 class="fs-2 mb-4 mt-5">Button rainbow</h2>
+                        </header>
+                        <section class="justify-content-center">
+                            <div id="sbbutton1" class="border bg-white col-lg-12 text-center py-3">
+                                <button class="btn btn-info mb-2 rainbowDsb" type="button">Rainbow</button>
+                            </div>
+                        </section>
+                        <section class="justify-content-center">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="HTML1" aria-selected="true" class="nav-link active"
+                                            data-bs-target="#HTML1" data-bs-toggle="tab" id="HTML-tab1" role="tab"
+                                            type="button">HTML
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="CSS1" aria-selected="false" class="nav-link" data-bs-target="#CSS1"
+                                            data-bs-toggle="tab" id="CSS-tab1" role="tab" type="button">CSS
+                                    </button>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <div class="tab-content p-0 codecolorDjv snippetDjv rondDjv" id="myTabContent">
+                                <div aria-labelledby="HTML-tab1" class="tab-pane fade show active" id="HTML1"
+                                     role="tabpanel">
+                                    <button class="snippetbDjv" onclick="copyEvent('copy1')" type="button">
+                                        <img alt="Copy to clipboard" class="clippy"
+                                             src="imagesD/clippy.svg" width="15">
+                                    </button>
+                                    <pre class="codecolorDjv pt-3 ps-3 text-start">
+<code class="language-html" data-lang="html1" id="copy1"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-info mb-2 rainbowDsb"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span>&gt;</span>Rainbow<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
+                                </div>
+                                <div aria-labelledby="CSS-tab1" class="tab-pane fade" id="CSS1"
+                                     role="tabpanel">
+                                    <button class="snippetbDjv" onclick="copyEvent('copy2')" type="button">
+                                        <img alt="Copy to clipboard" class="clippy"
+                                             src="imagesD/clippy.svg" width="15">
+                                    </button>
+                                    <pre class="codecolorDjv pt-3 ps-3 text-start">
+                                            <code class="language-css" data-lang="CSS1" id="copy2">
+.rainbowDsb{
+  font-family: "Roboto Light", sans-serif;
+  font-size: 1.2rem;
+  width: 131px;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+.rainbowDsb:before{
+  content: '';
+  background: -o-linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  -webkit-animation: glowing 20s linear infinite;
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+
+
+
+.rainbowDsb:active:after{
+  background: transparent;
+}
+
+.rainbowDsb:hover:before{
+  opacity: 1;
+}
+
+.rainbowDsb:after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+@-webkit-keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}</code></pre>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                <!--end button 1-->
+                <!--button 2-->
+                    <article id="sbpagebtn2"  class="text-snippetDjv">
+                        <header class="text-center">
+                            <h2 class="fs-2 mb-4 mt-5">Button rainbow Horizontal</h2>
+                        </header>
+                        <section class="justify-content-center">
+                            <div id="sbbutton2" class="border bg-white col-lg-12 text-center py-3">
+                                <button class="btn btn-info mb-2 sbbutton2" type="button">Rainbow Hor</button>
+                            </div>
+                        </section>
+                        <section>
+                            <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="HTML2" aria-selected="true" class="nav-link active"
+                                            data-bs-target="#HTML2" data-bs-toggle="tab" id="HTML-tab2" role="tab"
+                                            type="button">HTML
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="CSS2" aria-selected="false" class="nav-link" data-bs-target="#CSS2"
+                                            data-bs-toggle="tab" id="CSS-tab2" role="tab" type="button">CSS
+                                    </button>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <div class="tab-content p-0 codecolorDjv snippetDjv rondDjv" id="myTab2Content">
+                                <div aria-labelledby="HTML-tab2" class="tab-pane fade show active" id="HTML2"
+                                     role="tabpanel">
+                                    <button class="snippetbDjv" onclick="copyEvent('copy3')" type="button">
+                                        <img alt="Copy to clipboard" class="clippy"
+                                             src="imagesD/clippy.svg" width="15">
+                                    </button>
+                                    <pre class="codecolorDjv pt-3 ps-3 text-start">
+<code class="language-html" data-lang="html1" id="copy3"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-info mb-2 sbbutton2"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span>&gt;</span>cool effect<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
+                                </div>
+                                <div aria-labelledby="CSS-tab2" class="tab-pane fade" id="CSS2"
+                                     role="tabpanel">
+                                    <button class="snippetbDjv" onclick="copyEvent('copy4')" type="button">
+                                        <img alt="Copy to clipboard" class="clippy"
+                                             src="imagesD/clippy.svg" width="15">
+                                    </button>
+                                    <pre class="codecolorDjv pt-3 ps-3 text-start">
+                                            <code class="language-css" data-lang="CSS2" id="copy4">
+.sbbutton2{
+  width: 131px;
+  height: 45px;
+  border-radius: 10px;
+}
+.sbbutton2:hover{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+</code></pre>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                <!--end button 2-->
+                <!--button 3-->
+                    <article id="sbpagebtn3" class="text-snippetDjv">
+                            <header class="text-center">
+                                <h2 class="fs-2 mb-4 mt-5">Slow fill button</h2>
+                            </header>
+                            <section class="justify-content-center">
+                                <div id="sbbutton3" class="border bg-white col-lg-12 text-center d-flex justify-content-center py-3">
+                                    <button class="btn btn-info mb-2 sbbtn-shine sbshine" type="button">Slow Fill</button>
+                                </div>
+                            </section>
+                            <section>
+                                <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="HTML3" aria-selected="true" class="nav-link active"
+                                                data-bs-target="#HTML3" data-bs-toggle="tab" id="HTML-tab3" role="tab"
+                                                type="button">HTML
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="CSS3" aria-selected="false" class="nav-link" data-bs-target="#CSS3"
+                                                data-bs-toggle="tab" id="CSS-tab3" role="tab" type="button">CSS
+                                        </button>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section>
+                                <div class="tab-content p-0 codecolorDjv snippetDjv rondDjv" id="myTab3Content">
+                                    <div aria-labelledby="HTML-tab3" class="tab-pane fade show active" id="HTML3"
+                                         role="tabpanel">
+                                        <button class="snippetbDjv" onclick="copyEvent('copy5')" type="button">
+                                            <img alt="Copy to clipboard" class="clippy"
+                                                 src="imagesD/clippy.svg" width="15">
+                                        </button>
+                                        <pre class="codecolorDjv pt-3 ps-3 text-start ">
+<code class="language-html" data-lang="html1" id="copy5"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sbbtn-shine sbshine btn btn-info mb-2"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span>&gt;</span>Slow Fill<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></code></pre>
+                                    </div>
+                                    <div aria-labelledby="CSS-tab3" class="tab-pane fade" id="CSS3"
+                                         role="tabpanel">
+                                        <button class="snippetbDjv" onclick="copyEvent('copy6')" type="button">
+                                            <img alt="Copy to clipboard" class="clippy"
+                                                 src="imagesD/clippy.svg" width="15">
+                                        </button>
+                                        <pre class="codecolorDjv pt-3 ps-3  text-start">
+<code class="language-css" data-lang="CSS3" id="copy6">
+.sbshine {
+  position: relative;
+  margin: 0;
+  padding: 5px 12px;
+  width: 131px;
+  height: 45px;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border-radius: 10px;
+  color: #1d89ff;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  &:hover {
+    animation: rotate 0.7s ease-in-out both;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-5deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+.sbshine {
+  overflow: hidden;
+  position: relative;
+  &:after {
+    background: #38b8ef;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .4;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+  }
+  &:hover {
+    &:after {
+      left: 120%;
+      transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+}
+</code>
+                                        </pre>
+                                    </div>
+                                </div>
+                            </section>
+                    </article>
+
+                <!-- end button 3-->
+                <!--end snippets-->
+
+                <!--begin links-->
+                <!--end links-->
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+
+</footer>
+
+<script src="js/androidstudio.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scriptD.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+
+</body>
+</html>
