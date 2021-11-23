@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+prepros.config
+package-lock.json
+package.json

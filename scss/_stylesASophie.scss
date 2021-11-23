@@ -1,0 +1,149 @@
+.fsz-1{
+  font-size: 1rem;
+}
+hr{
+  color: rgba(0,0,0,1)
+}
+.lijnenAas{
+  display: block;
+  margin: 5rem auto 5rem auto;
+  border-top: 0.188rem rgb(0,0,0) solid;
+  color: black;
+  background: rgb(0,0,0);
+}
+
+#quotesAas{
+  .h1-underline{ //mag later weg komt in generals
+    width:100px;
+    height: 20px;
+    border-top:3px solid black;
+  }
+  .carousel-control-prev{
+    left: -20px;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  .carousel-indicators{
+    border: none;
+  }
+  .carousel-indicators{
+    .active{
+      color: $geel;
+    }
+  }
+}
+#socialsAas {
+  /*background-image: linear-gradient(53deg,rgba(0, 187, 174,0.2) 55%,  rgb( 245, 245, 245) 45%);*/
+  /*.witAas{
+  color: rgba(255,255,255,1);
+  }*/
+  .icon{
+    .iconsbgAas{
+      height: 60px;
+      width: 60px;
+      background: $blauw;
+      &:hover{
+        border: 0.188rem $geel solid;
+
+      }
+      .iconsAsocials{
+        transform: translate(50%,-50%);
+        top: 50%;
+        right: 22%;
+      }
+    }
+  }
+  .h1-underline{ //mag later weg komt in generals
+    width:100px;
+    height: 20px;
+    border-top:0.188rem solid black;
+  }
+  .twitter-timeline{
+    border-radius: 0;
+    width: 20%;
+  }
+  .witAas{
+  color: rgba( 245, 245, 245, 1);
+  }
+  .fab{
+    transform: translate(50%,-50%);
+    top: 50%;
+    left: -28%;
+  }
+  #mapAas{
+    border: black 0.188rem solid;
+  }
+  #adresAas{
+
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #mapAas{
+    min-width: 300px;
+    max-width: fit-content;
+    height: 250px;
+    justify-content: center;
+  }
+  #adresAas{
+    font-size: 1.2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #mapAas{
+    min-width: 600px;
+    max-width: fit-content;
+    height: 300px;
+    align-items: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #mapAas{
+    min-width: 600px;
+    max-width: fit-content;
+    height: 300px;
+    align-items: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #mapAas{
+    min-width: 500px;
+    max-width: 900px;
+    height: 360px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  #mapAas{
+    min-width: 550px;
+    max-width: 800px;
+    height: 400px;
+  }
+  #adresAas{
+    font-size: 1.3rem;
+  }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #mapAas{
+    min-width: 650px;
+    max-width: 800px;
+    height: 400px;
+  }
+  #adresAas{
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
