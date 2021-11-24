@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Full stack developers" name="author">
+    <meta content="Portfolio Full stack developers 2021-2022" name="description">
+    <meta content="portfolio developer" name="keywords">
+    <meta content="#fbeb00" name="theme-color">
+    <title>Jan - Persoonlijke pagina</title>
+    <link href="favicon.ico" rel="icon" sizes="any">
+    <link href="imagesC/icon.svg" rel="icon" type="image/svg+xml">
+    <link href="imagesC/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="site.webmanifest" rel="manifest">
+    <link href="cssC/allC.min.css" rel="stylesheet">
+    <link href="cssC/bootstrapC.min.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- https://frenify.net/envato/frenify/html/rewalll/ -->
+<header>
+    <nav class="bg-white fixed-top navbar navbar-expand-lg shadow-sm" id="mainNavAls">
+        <div class="container-fluid col-lg-10 offset-lg-1">
+            <a class="navbar-brand fs-1" href="#">
+                <img alt="logo full stack developers" class="d-inline-block align-text-top"
+                     id="logoAls" src="imagesC/logo-fsd-web.svg">
+            </a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                    data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#wiezijnwe">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projecten.html">PROJECTEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="snippets.html">SNIPPETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#socialsAas">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+
+    <!--BEGIN NAVBAR LODE-->
+
+    <!--EINDENAVBAR LODE-->
+    <div class="d-block d-lg-none" id="floatingnavClb">
+        <img alt="mobielmenu" id="floatingimgClb" src="imagesC/88-882040_menu-icon-bullets-png-icons-clipart.png">
+        <ul class="d-flex nav nav-pills flex-column text-center fs-4 robotobo" id="floatingnavulClb">
+            <li class="nav-item">
+                <a aria-current="page" class="nav-link text-black" href="../index.html">HOME</a><i
+                    class="far fa-window-close text-black"></i>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#biography">BIOGRAFIE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#services">DIENSTEN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#contactCgl">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+    <div class="openClb d-none d-lg-block" id="sidebarwrapperClb">
+        <div id="sidebarClb">
+            <div id="sidebarbuttonClb"><i
+                    class="fas fa-arrow-left fs-3 bg-black text-white p-2 border-top-0 border-white border border-5"></i>
+            </div>
+            <div id="navline"></div>
+            <div id="logowrapperClb">
+                <div class="px-5" id="logoClb">
+                    <p class="text-center robotobo fs-1">FULLSTACK</p>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div id="navigatieClb">
+                <ul class="nav nav-pills flex-column text-center fs-4 robotobo px-5">
+                    <li class="nav-item py-2">
+                        <a aria-current="page" class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#biography">BIOGRAFIE</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#services">DIENSTEN</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#contactCgl">CONTACT</a>
+                    </li>
+                </ul>
+                <!--<div class="text-black px-4" id="socialslineClb">
+                    <hr>
+                </div>-->
+            </div>
+            <!--<div class="d-flex justify-content-around px-5" id="socialsClb">
+                <a href="">
+                    <div class="vierkantClb d-flex justify-content-center align-items-center"><i
+                            class="fab fa-twitter fs-5"></i></div>
+                </a>
+                <a href="">
+                    <div class="vierkantClb d-flex justify-content-center align-items-center"><i
+                            class="fab fa-facebook-f fs-5"></i></div>
+                </a>
+                <a href="">
+                    <div class="vierkantClb d-flex justify-content-center align-items-center"><i
+                            class="fab fa-instagram fs-5"></i></div>
+                </a>
+                <a href="">
+                    <div class="vierkantClb d-flex justify-content-center align-items-center"><i
+                            class="fab fa-pinterest-p fs-5"></i></div>
+                </a>
+                <a href="">
+                    <div class="vierkantClb d-flex justify-content-center align-items-center"><i
+                            class="fab fa-youtube fs-5"></i></div>
+                </a>
+            </div>-->
+        </div>
+    </div>
+    <div id="mainwrapperClb">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12 col-md-10  col-lg-8 offset-lg-1 col-xl-8 offset-xl-2 mx-auto">
+
+                    <div class="aboutCgl row py-5" id="aboutCgl">
+
+                        <div class="fn_cs_about_modernCgl col-12">
+
+                            <div class="row d-flex align-items-center justify-content-between">
+
+                                <div class="left_partCgl col-lg-6 col-sm-12 mb-5">
+
+                                    <div class="left_inCgl" id="sceneCgl">
+
+                                        <div class="layerborderCgl p-4" data-depth="0.2">
+
+                                            <img alt="picture developer" class="align-middle"
+                                                 src="imagesC/JanPP.jpg">
+
+                                        </div>
+
+                                        <div class="dotslayerCgl align-baseline" data-depth="0.4"
+                                             data-switch="disable"></div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="right_partCgl col-lg-6 col-sm-12 px-5">
+
+                                    <div class="main_titleCgl">
+
+                                        <div class="row">
+                                            <h1 class="fs-1 text-center mt-3 text-uppercase align-baseline pb-3 lh-1">
+                                                Full Stack Developer</h1>
+                                            <div class="col-1 mx-auto h2-underline mb-4"></div>
+                                        </div>
+
+                                        <p class="align-baseline mb-5 robotoli text-center" id="jobdescriptionCgl">
+                                            Lid van het FSD-team. Vaardig in het ontwikkelen van webarchitectuur en het
+                                            ontwerpen van responsieve applicaties. Tevens actief als Grafisch Media
+                                            Designer.</p>
+
+                                        <p class="align-middle mb-0 text-center" id="signatureCgl">
+                                            Jan Van den Bogaert
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fn_next_sectionCgl row">
+
+                <div class="col-12 col-md-10 col-lg-10 mx-auto">
+                    <hr>
+                </div>
+
+            </div>
+
+        </div>
+        <!--<div id="biografieClb" class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-10 col-xl-8 mx-auto">
+                    <div class="row">
+                        <ul class="nav nav-pills mb-3 col-7 mx-auto justify-content-around" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link lh-1 active robotobo fs-5 text-black text-uppercase" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Ervaring</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link lh-1 robotobo fs-5 text-black text-uppercase" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Educatie</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link lh-1 robotobo fs-5 text-black text-uppercase" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Vaardigheden</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="tab-content col-9 mx-auto" id="pills-tabContent">
+                            <div class="row tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                               <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                   <div class="d-flex ps-3">
+                                       <p class="robotobo fs-4 pe-3">Bedrijf</p>
+                                       <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                   </div>
+                                   <p class="ps-3 robotobo fs-2">functie</p>
+                                   <p class="ps-3 robotore fs-3">beschrijving van de taken: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                               </div>
+                                <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                    <div class="d-flex ps-3">
+                                        <p class="robotobo fs-4 pe-3">Bedrijf</p>
+                                        <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                    </div>
+                                    <p class="ps-3 robotobo fs-2">functie</p>
+                                    <p class="ps-3 robotore fs-3">beschrijving van de taken: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                                </div>
+                                <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                    <div class="d-flex ps-3">
+                                        <p class="robotobo fs-4 pe-3">Bedrijf</p>
+                                        <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                    </div>
+                                    <p class="ps-3 robotobo fs-2">functie</p>
+                                    <p class="ps-3 robotore fs-3">beschrijving van de taken: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                                </div>
+                            </div>
+                            <div class="row tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                    <div class="d-flex ps-3">
+                                        <p class="robotobo fs-4 pe-3">School</p>
+                                        <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                    </div>
+                                    <p class="ps-3 robotobo fs-2">Opleiding</p>
+                                    <p class="ps-3 robotore fs-3">Omschrijving: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                                </div>
+                                <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                    <div class="d-flex ps-3">
+                                        <p class="robotobo fs-4 pe-3">School</p>
+                                        <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                    </div>
+                                    <p class="ps-3 robotobo fs-2">Opleiding</p>
+                                    <p class="ps-3 robotore fs-3">Omschrijving: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                                </div>
+                                <div class="greycard bg-secondary bg-opacity-10 py-3 my-4">
+                                    <div class="d-flex ps-3">
+                                        <p class="robotobo fs-4 pe-3">School</p>
+                                        <p class="robotore fs-5">(datum yyyy&#45;&#45;yyyy)</p>
+                                    </div>
+                                    <p class="ps-3 robotobo fs-2">Opleiding</p>
+                                    <p class="ps-3 robotore fs-3">Omschrijving: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi enim</p>
+                                </div>
+                            </div>
+                            <div class="row tab-pane fade gy-3" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <div class="skillsBorderClb">
+                                    <div id="fillhtmlClb" class="fillClb d-flex justify-content-between">
+                                        <p class="robotore text-black fs-4 m-0 p-3">HTML5 & CSS3</p> <p class="robotore text-black fs-4 m-0 p-3">95%</p>
+                                    </div>
+                                </div>
+                                <div class="skillsBorderClb">
+                                    <div id="filljsClb" class="fillClb d-flex justify-content-between">
+                                        <p class="robotore text-black fs-4 m-0 p-3">JAVASCRIPT</p> <p class="robotore text-black fs-4 m-0 p-3">90%</p>
+                                    </div>
+                                </div>
+                                <div class="skillsBorderClb">
+                                    <div id="filldataClb" class="fillClb d-flex justify-content-between">
+                                        <p class="robotore text-black fs-4 m-0 p-3">DATABASES</p> <p class="robotore text-black fs-4 m-0 p-3">80%</p>
+                                    </div>
+                                </div>
+                                <div class="skillsBorderClb">
+                                    <div id="fillphpClb" class="fillClb d-flex justify-content-between">
+                                        <p class="robotore text-black fs-4 m-0 p-3">PHP</p> <p class="robotore text-black fs-4 m-0 p-3">85%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!--EINDE NAVBAR LODE-->
+        <!--BEGIN HOME GEOFFREY-->
+
+        <!--EINDE HOME GEOFFREY-->
+        <!--BEGIN PORTFOLIO GREGORY-->
+        <!--EINDE PORTFOLIO GREGORY-->
+        <!--BEGIN NAVBAR LODE-->
+        <!--EINDE NAVBAR LODE-->
+        <!--BEGIN HOME GEOFFREY-->
+        <!--EINDE HOME GEOFFREY-->
+        <!--BEGIN PORTFOLIO GREGORY-->
+        <div class="container-fluid">
+
+            <!-- Biography -->
+            <section id="biography">
+                <div class="row text-center">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+
+                        <div class="main_title mt-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="display-3 text-center mt-3 text-uppercase">Biografie</h2>
+                                </div>
+                                <div class="col-1 mx-auto h2-underline"><!-- Empty --></div>
+                            </div>
+                            <div class="row my-5">
+                                <div class="col-10 mx-auto">
+                                    <p>
+                                        Ik ben een 21-jarige allround software ontwikkelaar. Ik kom uit West-Vlaanderen,
+                                        België. Ik kan comfortabel werken met zowel back-end als front-end technologieën
+                                        om een website of applicatie goed te laten functioneren. Ik werk flexibel en
+                                        beschik over een goed aanpassingsvermogen. Films boeien me enorm. ik ben ook grote fan van het wielrennen
+                                        en heb een diploma van imker!
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <ul class="person list-unstyled d-flex fs-4 flex-wrap justify-content-center text-decoration-none">
+                                    <li class="px-3 py-2 m-3">Naam: <strong>Jan Van den Bogaert</strong></li>
+                                    <li class="px-3 py-2 m-3">Leeftijd: <strong>21 jaar</strong></li>
+                                    <li class="px-3 py-2 m-3">Adres: <strong>Brugge</strong></li>
+                                    <li class="px-3 py-2 m-3">Telefoon: <strong><a href="">Onbekend</a></strong></li>
+                                    <li class="px-3 py-2 m-3">E-mail: <strong><a
+                                            href="mailto:janvandenbogaert2000@gmail.com">janvandenbogaert2000@gmail.com</a></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row my-5">
+                            <div class="col-12">
+                                <a href="#">
+                                    <div class="button-cv mx-auto text-center">
+                                        <div class="link-file">
+                                            <svg class="bi" fill="currentColor">
+                                                <use xlink:href="images/bootstrap-icons.svg#file-earmark-arrow-down"></use>
+                                            </svg>
+                                            <div class="fw-bold mt-4 text-uppercase">Download CV</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-home" aria-selected="true"
+                                                class="nav-link text-uppercase fw-bold rounded-0 active"
+                                                data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab"
+                                                role="tab" type="button">Ervaring
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-profile" aria-selected="false"
+                                                class="nav-link text-uppercase fw-bold rounded-0"
+                                                data-bs-target="#pills-profile" data-bs-toggle="pill"
+                                                id="pills-profile-tab"
+                                                role="tab" type="button">Onderwijs
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-contact" aria-selected="false"
+                                                class="nav-link text-uppercase fw-bold rounded-0"
+                                                data-bs-target="#pills-contact" data-bs-toggle="pill"
+                                                id="pills-contact-tab"
+                                                role="tab" type="button">Skills
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div aria-labelledby="pills-home-tab" class="tab-pane fade show active"
+                                         id="pills-home"
+                                         role="tabpanel">
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">FSD</h3>
+                                                <span class="ms-3 fs-5">(November 2021)</span>
+                                            </div>
+                                            <h2>FSD - multi page site</h2>
+                                            <p>Uitwerken van een multi page website met een scrum team.</p>
+                                        </div>
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">Parallax</h3>
+                                                <span class="ms-3 fs-5">(Oktober 2021)</span>
+                                            </div>
+                                            <h2>Parallels - single page site</h2>
+                                            <p>Duoproject het uitwerken van mobile first website.</p>
+                                        </div>
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">Grafix</h3>
+                                                <span class="ms-3 fs-5">(April 2021 - Juni 2021)</span>
+                                            </div>
+                                            <h2>Concept festival Grafix</h2>
+                                            <p>Branding, drukwerk en website voor festival rond grafische kunsten.</p>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-profile-tab" class="tab-pane fade" id="pills-profile"
+                                         role="tabpanel">
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">Syntra-West Roeselare</h3>
+                                                <span class="ms-3 fs-5">(2021 — Heden)</span>
+                                            </div>
+                                            <h2>Back-end Developer</h2>
+                                            <p>Ontwerpen van websites met dynamische content in de programmeertaal
+                                                PHP</p>
+                                        </div>
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">Syntra-West Roeselare</h3>
+                                                <span class="ms-3 fs-5">(2021 — Heden)</span>
+                                            </div>
+                                            <h2>Front-end Developer</h2>
+                                            <p>Het omzetten van een ontwerp van een website of andere toepassing in een
+                                                technisch goed werkend geheel</p>
+                                        </div>
+                                        <div class="item mb-5 p-5">
+                                            <div class="item_top d-flex align-items-baseline">
+                                                <h3 class="fs-5 text-uppercase">VTI Brugge</h3>
+                                                <span class="ms-3 fs-5">(2017 — 2019)</span>
+                                            </div>
+                                            <h2>Industrieel elektricien</h2>
+                                            <p>Zorgen voor de verwarming en verlichting.
+                                                Kortom, de elektrische voorzieningen in bedrijven en fabrieken zijn jouw werk.</p>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-contact-tab" class="tab-pane fade" id="pills-contact"
+                                         role="tabpanel">
+                                        <div class="progress my-3" style="height: 50px;">
+                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
+                                                 class="progress-bar fs-5 fw-bold" role="progressbar"
+                                                 style="width: 92%">
+                                                HTML & CSS | 92%
+                                            </div>
+                                        </div>
+                                        <div class="progress my-3" style="height: 50px;">
+                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50"
+                                                 class="progress-bar fs-5 fw-bold" role="progressbar"
+                                                 style="width: 95%">
+                                                JavaScript | 95%
+                                            </div>
+                                        </div>
+                                        <div class="progress my-3" style="height: 50px;">
+                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="75"
+                                                 class="progress-bar fs-5 fw-bold" role="progressbar"
+                                                 style="width: 80%">
+                                                PHP | 80%
+                                            </div>
+                                        </div>
+                                        <div class="progress my-3" style="height: 50px;">
+                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="100"
+                                                 class="progress-bar fs-5 fw-bold" role="progressbar"
+                                                 style="width: 85%">
+                                                MySQL & MariaDB | 85%
+                                            </div>
+                                        </div>
+                                        <div class="fn_cs_desc mt-5">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-10 mx-auto">
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <section id="portfolio">
+                <div class="row text-center">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+                        <div class="main_title mt-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="display-3 text-center mt-3 text-uppercase">Portfolio</h2>
+                                </div>
+                                <div class="col-1 mx-auto h2-underline"><!-- Empty --></div>
+                            </div>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col-10 mx-auto">
+                                <p>Nu werk ik samen met de andere leden van ons geweldige team aan een website met
+                                    meerdere pagina's. Deze is professioneel, visueel geperfectioneerd en responsive.
+                                    Hebt u een nieuw project voor mij? Contacteer me door op onderstaande knop te
+                                    klikken!</p>
+                                <div class="main_button mt-5 w-75 mx-auto text-center">
+                                    <a href="#">Contact met me opnemen</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row grid my-5">
+                            <article class="grid-sizer col-12 col-md-4"><h2 class="d-none">easter egg</h2></article>
+                            <article class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">Prechu</h3>
+                                        <p>Lorem Ipsum is Eenvoudig</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="Prechu" href="imagesC/site-prechu.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-prechu.jpg">
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">MINIMØ</h3>
+                                        <p>Het perfecte weekendje weg</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="MINIMØ" href="imagesC/site-minimo.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-minimo.jpg">
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">BLUEASY</h3>
+                                        <p>Ik zoek het onverwachte. Ik ben op zoek naar dingen die ik nog nooit eerder
+                                            heb gezien.</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="BLUEASY" href="imagesC/site-blueasy.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-blueasy.jpg">
+                                    </div>
+                                </div>
+                            </article>
+                            <div class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">ZEBRA</h3>
+                                        <p>Maak kennis met Wild Eyes</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="ZEBRA" href="imagesC/site-zebra.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-zebra.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">Webpaint</h3>
+                                        <p>Wij zijn Webpaint</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="Webpaint"
+                                                   href="imagesC/site-webpaint.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-webpaint.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <article class="grid-item col-12 col-md-4">
+                                <div class="item mt-5">
+                                    <header class="title_holder">
+                                        <h3 class="display-6">Parallels</h3>
+                                        <p>Schoon responsief parallax-thema</p>
+                                    </header>
+                                    <div class="img_holder" data-aos="zoom-in" data-aos-offset="100">
+                                        <div class="mask">
+                                            <div class="links d-flex">
+                                                <a data-fslightbox data-title="Parallels"
+                                                   href="imagesC/site-parallels.jpg">
+                                                    <div class="link-eye mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#eye"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                                <a href="https://syntrawestcloud.be/fullstack/">
+                                                    <div class="link-url mx-3">
+                                                        <svg class="bi" fill="currentColor">
+                                                            <use xlink:href="images/bootstrap-icons.svg#link-45deg"></use>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img alt="" class="img-fluid" src="imagesC/site-parallels.jpg">
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-10 mx-auto">
+                    <hr>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <section id="services">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+                        <div class="main_title mt-5 text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="display-3 text-center mt-3 text-uppercase">Diensten</h2>
+                                </div>
+                                <div class="col-1 mx-auto h2-underline"><!-- Empty --></div>
+                            </div>
+                            <div class="row my-5">
+                                <div class="col-10 mx-auto">
+                                    <p>Ik creëer gebruiksvriendelijke en converterende interfaces die gebruikers in
+                                        staat stellen te begrijpen hoe ze complexe technische producten moeten
+                                        gebruiken. Ik zet in een zeer korte tijd een heleboel experimenten op. Ik geloof
+                                        dat je alleen echt kunt weten of iets werkt of niet door er voldoende mee te
+                                        experimenteren.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col col-md-10">
+                                <div class="item mb-5 p-0 px-5 pt-5 position-relative" data-aos="fade-left">
+                                    <div class="badge py-3 px-4 position-absolute">
+                                        <p class="m-1 text-uppercase">BEGINT VAN</p>
+                                        <h3 class="m-0">&euro;500</h3>
+                                    </div>
+                                    <h3>Web- &amp; Productontwerp</h3>
+                                    <p>Van low-fidelity wireframing en prototyping tot een definitief gecodeerd ontwerp.
+                                        We geven niet alleen statische ontwerpen door, maar werken net zo graag
+                                        rechtstreeks in de browser (♥ CSS) als met ontwerptools zoals Figma. We kunnen
+                                        ook complete sites opzetten in Statamic en Kirby en werken samen met front-end
+                                        ontwikkelaars om een complete service te bieden.</p>
+                                    <div class="pt-3 item-underline"><!-- Empty --></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-10 offset-md-2">
+                                <div class="item mb-5 p-0 px-5 pt-5 position-relative" data-aos="fade-right">
+                                    <div class="badge p-3 position-absolute">
+                                        <p class="m-1 text-uppercase">BEGINT VAN</p>
+                                        <h3 class="m-0">&euro;500</h3>
+                                    </div>
+                                    <h3>Merkidentiteit</h3>
+                                    <p>Van een enkel logomerk tot <a class="fn_link" href="#">een volledig
+                                        brandingsysteem</a>. Een gloednieuw logo is misschien niet het antwoord voor u,
+                                        we geloven sterk in het verfijnen en bijwerken van bestaande logo's om de
+                                        effectiviteit te vergroten zonder merkwaarde te verliezen.
+                                    </p>
+                                    <div class="pt-3 item-underline"><!-- Empty --></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-10">
+                                <div class="item mb-5 p-0 px-5 pt-5 position-relative" data-aos="fade-left">
+                                    <div class="badge p-3 position-absolute">
+                                        <p class="m-1 text-uppercase">BEGINT VAN</p>
+                                        <h3 class="m-0">&euro;500</h3>
+                                    </div>
+                                    <h3>Iconografie</h3>
+                                    <p>Dit is een specialiteit van ons en we hebben gewerkt met Skype, Spotify en Dyson
+                                        (om er maar een paar te noemen). Het proces van het reduceren van een idee tot
+                                        zijn eenvoudigste, maar nog steeds herkenbare vorm is vreugdevol!</p>
+                                    <div class="pt-3 item-underline"><!-- Empty --></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-10 mx-auto">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 mx-auto">
+                        <div class="contactCgl py-5" id="contactCgl">
+                            <div class="main_titleCgl mb-5">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="display-3 text-center mt-3 text-uppercase">Contact</h2>
+                                    </div>
+                                    <div class="col-1 mx-auto h2-underline"><!-- Empty --></div>
+                                </div>
+                            </div>
+                            <div class="rewall_fn_contactCgl w-100 px-1">
+                                <form>
+                                    <div class="row d-flex align-items-center justify-content-between">
+                                        <div class="input-groupCgl mb-5 col-lg-6 col-sm-12">
+                                            <input class="w-100 px-4" id="name" required type="text">
+                                            <label class="h-100 px-4 pt-3" for="name"><i
+                                                    class="fas fa-user"></i>
+                                                Naam</label>
+                                        </div>
+                                        <div class="input-groupCgl mb-5 col-lg-6 col-sm-12">
+                                            <input class="w-100 px-4" id="email" required type="text">
+                                            <label class="h-100 px-4 pt-3" for="email"><i
+                                                    class="fas fa-envelope"></i> E-mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-groupCgl mb-5">
+                                        <input class="w-100 px-4" id="number" required type="text">
+                                        <label class="h-100 px-3 pt-3" for="number"><i
+                                                class="fas fa-mobile-alt"></i> Telefoon</label>
+                                    </div>
+                                    <div class="input-groupCgl mb-5">
+                                        <textarea class="w-100 px-4" id="message" required rows="6"></textarea>
+                                        <label class="h-100 px-3 pt-3" for="message"><i
+                                                class="fas fa-comments"></i> Bericht</label>
+                                    </div>
+                                    <button class="main_button w-100 mx-auto text-center rounded-0" id="submitButtonCgl"
+                                            type="submit"><i class="fas fa-paper-plane"></i> Verzenden
+                                    </button>
+                                </form>
+                                <div class="fn_cs_contact_infoCgl text-center mt-5 pt-5">
+                                    <p class="text-uppercase mb-2 robotore">Adres</p>
+                                    <h2 class="robotobo mb-5">Oostnieuwkerksesteenweg 111, Roeselare</h2>
+                                    <p class="text-uppercase mb-2 robotore"> Telefoon</p>
+                                    <h2 class="robotobo mb-5"><a class="text-decoration-none" href="tel:+078353653"
+                                                                 id="phoneNumberCgl">078 35 36 53</a></h2>
+                                    <p class="robotoli mb-5 underline-hover-effectCgl">
+                                        <a class="fn_linkCgl text-decoration-none"
+                                           href="mailto:fullstack@syntrawest.be">
+                                            fullstack@syntrawest.be</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div id="info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-10 mx-auto">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between align-items-center flex-column flex-md-row"
+                             id="logo">
+                            <div>
+                                <img alt="" class="me-5 mb-3" height="50" src="imagesC/logo-fsd-web.svg">
+                            </div>
+                            <div>
+                                <p>Syntra West VZW - m.z. Spoorwegstraat 14, 8200 Brugge - Ondernemingsnr. 410.959.009 -
+                                    BTW nr.
+                                    BE
+                                    0410.959.009 - RPR Gent afdeling Brugge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="jsC/bootstrap.min.js"></script>
+<script src="jsC/masonry.pkgd.min.js"></script>
+<script src="jsC/imagesloaded.pkgd.min.js"></script>
+<script src="jsC/aos.js"></script>
+<script src="jsC/fslightbox.min.js"></script>
+<script src="jsC/scriptC.js"></script>
+
+</body>
+</html>

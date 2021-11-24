@@ -1,0 +1,9 @@
+// scssC-docs-start clearfix
+@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+// scssC-docs-end clearfix
