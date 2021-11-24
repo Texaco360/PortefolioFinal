@@ -1,0 +1,175 @@
+/*SIDEBAR*/
+@import "generals";
+@import "variables";
+#navigatieClb ul li  .active{
+  background-color:$geel!important;
+}
+
+#projectClb{
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:-35px;
+}
+#logoClb{
+  position: relative;
+}
+#logoClb hr{
+  height: 10px;
+  color:black;
+  opacity: 1;
+  position: absolute;
+  right: 82px;
+  top: 32px;
+  width: 214px;
+
+}
+#sidebarClb{
+  padding-top: 54px;
+  ul{
+    line-height:0.8em
+  }
+}
+#sidebarwrapperClb{
+  position: fixed;
+  /*overflow: hidden;*/
+  transition: transform 0.5s ease;
+}
+.closeClb{
+  transform: translateX(-100%);
+}
+
+#navline{
+  border-right:4px solid black;
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+#sidebarbuttonClb{
+  position: absolute;
+  right:-24px;
+  top:0;
+  z-index: 5;
+  cursor:pointer;
+  transition: all 0.5s ease;
+}
+.closeBtnClb{
+  right:-44px!important;
+  /*transform: rotate(180deg);*/
+  transform: scaleX(-1);
+}
+#navigatieClb ul li a{
+  text-decoration: none;
+  color: $gray-900;
+}
+#socialsprojectClb{
+  padding-top:0px;
+  padding-bottom:0px;
+  a{
+    text-decoration: none;
+    color: $gray-900;
+    transition-property: color;
+    transition-duration: 300ms;
+    &:hover{
+      color: $geel;
+    }
+  }
+}
+
+#socialslineprojectClb{
+  padding-top:0px;
+}
+#socialslineClb hr {
+  color: black;
+  height:4px;
+  opacity: 1;
+}
+.vierkantClb{
+  width: 45px;
+  height: 45px;
+  border: 2px solid grey;
+  transition-property: border;
+  transition-duration: 300ms;
+  &:hover{
+    border: 2px solid $geel;
+  }
+}
+#mobileMenu{
+  text-align: right;
+  img{
+    width:15%;
+  }
+}
+
+#navbarToggleExternalContent ul li a{
+  color:black;
+}
+#navbarToggleExternalContent ul li .active{
+  background-color:$geel!important;
+}
+.navbar-toggler:focus{
+  box-shadow: none!important;
+}
+.navbar{
+  position: sticky!important;
+  top:10px!important;
+  z-index: 10;
+}
+#navbarToggleExternalContent{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  ul{
+    background: rgba(236, 236, 236, 0.6 );
+    border:$geel 7px solid;
+
+  }
+
+}
+.text-align-left{
+  text-align: left!important;
+}
+.flippedImage{
+  transform: scale(-1,-1);
+  transition-duration: 2s;
+  z-index:6;
+
+}
+//header
+#mainNavAls{
+  #logoAls{
+    width: auto ;
+    height: 50px;
+  }
+  .navbar-toggler-icon{
+    background-image: url("../imagesAlore/hamburgermenu.svg");
+  }
+  .navbar-toggler-icon:active{
+    box-shadow: none;
+  }
+  li{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-property: background-color;
+    transition-duration: 400ms;
+  }
+  a{
+    color: $gray-900;
+    font-family: robotore, sans-serif;
+  }
+  li:hover{
+    background-color: $geel;
+  }
+  li:focus{
+    background-color: $geel;
+  }
+}
+//footer
+#logo a{
+  text-decoration:none;
+  color:black;
+}
+#contactgegevens a{
+  text-decoration:none;
+  color: $dark-grey-900;
+  padding-right:30px;
+}
