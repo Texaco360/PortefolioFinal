@@ -38,7 +38,7 @@
   }
 }
 
-// scss-docs-start responsive-breakpoints
+// scssC-docs-start responsive-breakpoints
 // We deliberately hardcode the `bs-` prefix because we check
 // this custom property in JS to determine Popper's positioning
 
@@ -65,7 +65,7 @@
     }
   }
 }
-// scss-docs-end responsive-breakpoints
+// scssC-docs-end responsive-breakpoints
 
 // Allow for dropdowns to go bottom up (aka, dropup-menu)
 // Just add .dropup after the standard .dropdown class and you're set.

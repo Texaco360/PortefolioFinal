@@ -40,7 +40,7 @@
 }
 
 
-// scss-docs-start alert-modifiers
+// scssC-docs-start alert-modifiers
 // Generate contextual modifier classes for colorizing the alert.
 
 @each $state, $value in $theme-colors {
@@ -54,4 +54,4 @@
     @include alert-variant($alert-background, $alert-border, $alert-color);
   }
 }
-// scss-docs-end alert-modifiers
+// scssC-docs-end alert-modifiers

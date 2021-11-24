@@ -1,4 +1,4 @@
-// scss-docs-start clearfix
+// scssC-docs-start clearfix
 @mixin clearfix() {
   &::after {
     display: block;
@@ -6,4 +6,4 @@
     content: "";
   }
 }
-// scss-docs-end clearfix
+// scssC-docs-end clearfix

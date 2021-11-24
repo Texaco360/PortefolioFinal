@@ -1,5 +1,5 @@
 /*!
-  Highlight.js v11.3.1 (git: 2a972d8658)
+  Highlight.jsC v11.3.1 (git: 2a972d8658)
   (c) 2006-2021 Ivan Sagalaev and other contributors
   License: BSD-3-Clause
  */
@@ -179,7 +179,7 @@ var hljs=function(){"use strict";var e={exports:{}};function n(e){
             return d.noHighlightRe.test(e)}function h(e,n,t){let a="",i=""
         ;"object"==typeof n?(a=e,
             t=n.ignoreIllegals,i=n.language):(H("10.7.0","highlight(lang, code, ...args) has been deprecated."),
-            H("10.7.0","Please use highlight(code, options) instead.\nhttps://github.com/highlightjs/highlight.js/issues/2277"),
+            H("10.7.0","Please use highlight(code, options) instead.\nhttps://github.com/highlightjs/highlight.jsC/issues/2277"),
             i=e,a=n),void 0===t&&(t=!0);const r={code:a,language:i};M("before:highlight",r)
         ;const s=r.result?r.result:f(r.language,r.code,t)
         ;return s.code=r.code,M("after:highlight",s),s}function f(e,t,i,r){
@@ -258,7 +258,7 @@ var hljs=function(){"use strict";var e={exports:{}};function n(e){
                 q("Falling back to no-highlight mode for this block.",e)),n?t[1]:"no-highlight"}
             return n.split(/\s+/).find((e=>_(e)||v(e)))})(e);if(_(t))return
             ;if(M("before:highlightElement",{el:e,language:t
-        }),e.children.length>0&&(d.ignoreUnescapedHTML||(console.log("highlight.js"),
+        }),e.children.length>0&&(d.ignoreUnescapedHTML||(console.log("highlight.jsC"),
             console.log("script werkt"),
             console.log("load")),
             d.throwUnescapedHTML))throw new V("One of your code blocks includes unescaped HTML.",e.innerHTML)
@@ -337,7 +337,7 @@ var hljs=function(){"use strict";var e={exports:{}};function n(e){
             begin:"\\b0[0-7]+n?\\b"}],relevance:0},l={className:"subst",begin:"\\$\\{",
         end:"\\}",keywords:i,contains:[]},c={begin:"html`",end:"",starts:{end:"`",
             returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,l],subLanguage:"xml"}},d={
-        begin:"css`",end:"",starts:{end:"`",returnEnd:!1,
+        begin:"cssC`",end:"",starts:{end:"`",returnEnd:!1,
             contains:[e.BACKSLASH_ESCAPE,l],subLanguage:"css"}},g={className:"string",
         begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,l]},u={className:"comment",
         variants:[e.COMMENT(/\/\*\*(?!\/)/,"\\*/",{relevance:0,contains:[{
@@ -368,7 +368,7 @@ var hljs=function(){"use strict";var e={exports:{}};function n(e){
     },O="(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|"+e.UNDERSCORE_IDENT_RE+")\\s*=>",x={
         match:[/const|var|let/,/\s+/,t,/\s*/,/=\s*/,n.lookahead(O)],className:{
             1:"keyword",3:"title.function"},contains:[_]};return{name:"Javascript",
-        aliases:["js","jsx","mjs","cjs"],keywords:i,exports:{PARAMS_CONTAINS:p,
+        aliases:["jsC","jsx","mjs","cjs"],keywords:i,exports:{PARAMS_CONTAINS:p,
             CLASS_REFERENCE:f},illegal:/#(?![$_A-z])/,contains:[e.SHEBANG({label:"shebang",
             binary:"node",relevance:5}),{label:"use_strict",className:"meta",relevance:10,
             begin:/^\s*['"]use (strict|asm)['"]/

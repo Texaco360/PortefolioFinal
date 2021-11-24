@@ -154,7 +154,7 @@
   overflow-y: auto;
 }
 
-// scss-docs-start navbar-expand-loop
+// scssC-docs-start navbar-expand-loop
 // Generate series of `.navbar-expand-*` responsive classes for configuring
 // where your navbar collapses.
 .navbar-expand {
@@ -162,7 +162,7 @@
     $next: breakpoint-next($breakpoint, $grid-breakpoints);
     $infix: breakpoint-infix($next, $grid-breakpoints);
 
-    // stylelint-disable-next-line scss/selector-no-union-class-name
+    // stylelint-disable-next-line scssC/selector-no-union-class-name
     &#{$infix} {
       @include media-breakpoint-up($next) {
         flex-wrap: nowrap;
@@ -227,7 +227,7 @@
     }
   }
 }
-// scss-docs-end navbar-expand-loop
+// scssC-docs-end navbar-expand-loop
 
 // Navbar themes
 //

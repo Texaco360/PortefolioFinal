@@ -169,12 +169,12 @@ const findErrorMsg = input => {
 
 const showErrorMsg = input => {
     const errorMsg = findErrorMsg(input);
-    errorMsg.classList.remove('js-hidden');
+    errorMsg.classList.remove('jsC-hidden');
 };
 
 const hideErrorMsg = input => {
     const errorMsg = findErrorMsg(input);
-    errorMsg.classList.add('js-hidden');
+    errorMsg.classList.add('jsC-hidden');
 };
 
 const passwordStrength = (input, strengthBar, btn) => {
@@ -237,11 +237,11 @@ const changeVisibiltyBtnIcon = (btn, status) => {
     const visibilePasswIcon = btn.querySelector(`${DOM.passwVisibility_icon}[data-visible="visible"]`);
 
     if (status === 'visible') {
-        visibilePasswIcon.classList.remove('js-hidden');
-        hiddenPasswIcon.classList.add('js-hidden');
+        visibilePasswIcon.classList.remove('jsC-hidden');
+        hiddenPasswIcon.classList.add('jsC-hidden');
     } else if(status === 'hidden') {
-        visibilePasswIcon.classList.add('js-hidden');
-        hiddenPasswIcon.classList.remove('js-hidden');
+        visibilePasswIcon.classList.add('jsC-hidden');
+        hiddenPasswIcon.classList.remove('jsC-hidden');
     }
 
 };

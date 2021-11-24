@@ -31,7 +31,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/index.js
+   * Bootstrap (v5.1.3): util/index.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -342,7 +342,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): dom/event-handler.js
+   * Bootstrap (v5.1.3): dom/event-handler.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -630,7 +630,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): dom/data.js
+   * Bootstrap (v5.1.3): dom/data.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -684,7 +684,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): base-component.js
+   * Bootstrap (v5.1.3): base-component.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -750,7 +750,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/component-functions.js
+   * Bootstrap (v5.1.3): util/component-functions.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -776,7 +776,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): alert.js
+   * Bootstrap (v5.1.3): alert.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -865,7 +865,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): button.js
+   * Bootstrap (v5.1.3): button.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -936,7 +936,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): dom/manipulator.js
+   * Bootstrap (v5.1.3): dom/manipulator.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1010,7 +1010,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): dom/selector-engine.js
+   * Bootstrap (v5.1.3): dom/selector-engine.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1080,7 +1080,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): carousel.js
+   * Bootstrap (v5.1.3): carousel.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1629,7 +1629,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): collapse.js
+   * Bootstrap (v5.1.3): collapse.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1948,7 +1948,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): dropdown.js
+   * Bootstrap (v5.1.3): dropdown.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2410,7 +2410,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/scrollBar.js
+   * Bootstrap (v5.1.3): util/scrollBar.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2514,7 +2514,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/backdrop.js
+   * Bootstrap (v5.1.3): util/backdrop.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2638,7 +2638,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/focustrap.js
+   * Bootstrap (v5.1.3): util/focustrap.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2741,7 +2741,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): modal.js
+   * Bootstrap (v5.1.3): modal.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3170,7 +3170,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): offcanvas.js
+   * Bootstrap (v5.1.3): offcanvas.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3426,7 +3426,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): util/sanitizer.js
+   * Bootstrap (v5.1.3): util/sanitizer.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3538,7 +3538,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): tooltip.js
+   * Bootstrap (v5.1.3): tooltip.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3891,7 +3891,7 @@
       if (!content && templateElement) {
         templateElement.remove();
         return;
-      } // we use append for html objects to maintain js events
+      } // we use append for html objects to maintain jsC events
 
 
       this.setElementContent(templateElement, content);
@@ -4248,7 +4248,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): popover.js
+   * Bootstrap (v5.1.3): popover.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4358,7 +4358,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): scrollspy.js
+   * Bootstrap (v5.1.3): scrollspy.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4593,7 +4593,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): tab.js
+   * Bootstrap (v5.1.3): tab.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4791,7 +4791,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): toast.js
+   * Bootstrap (v5.1.3): toast.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -5021,7 +5021,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.3): index.umd.js
+   * Bootstrap (v5.1.3): index.umd.jsC
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -5043,4 +5043,4 @@
   return index_umd;
 
 }));
-//# sourceMappingURL=bootstrap.js.map
+//# sourceMappingURL=bootstrap.jsC.map

@@ -156,7 +156,7 @@
 }
 
 
-// scss-docs-start list-group-modifiers
+// scssC-docs-start list-group-modifiers
 // List group contextual variants
 //
 // Add modifier classes to change text and background color on individual items.
@@ -171,4 +171,4 @@
 
   @include list-group-item-variant($state, $list-group-variant-bg, $list-group-variant-color);
 }
-// scss-docs-end list-group-modifiers
+// scssC-docs-end list-group-modifiers
