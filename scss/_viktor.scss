@@ -99,6 +99,16 @@
     width:15%;
   }
 }
+#mobileMenuContainer{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+
+}
+#navbarToggleExternalContent{
+  border:7px solid black;
+  background: rgba(236, 236, 236, 0.7);
+}
 
 #navbarToggleExternalContent ul li a{
   color:black;
@@ -114,14 +124,13 @@
   top:10px!important;
   z-index: 10;
 }
-#navbarToggleExternalContent{
+#mobileMenu{
   position: sticky;
   top: 0px;
   z-index: 10;
   ul{
     background: rgba(236, 236, 236, 0.6 );
     border:$geel 7px solid;
-
   }
 
 }
@@ -170,6 +179,6 @@
 }
 #contactgegevens a{
   text-decoration:none;
-  color: $dark-grey-900;
+  color: $gray-900;
   padding-right:30px;
 }

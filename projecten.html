@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Sjabloon</title>
+    <title>Project tijdslijn</title>
     <meta name="author" content="fullstackdevelopers2022">
     <meta name="description" content="portfolio klas full stack developers 2021-2022">
     <meta name="keywords" content="portfolio developer ">
@@ -50,7 +50,7 @@
 </header>
 <main>
     <!--BEGIN SIDEBAR VIK-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="mobileMenuContainer">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="p-4">
                 <ul class="nav nav-pills flex-column text-center fs-4 robotobo px-5">
@@ -73,7 +73,7 @@
         <nav class="navbar d-lg-none mobilestick">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="mobileMenu">
-                    <img src="images/icoonGroepswerk.png" alt="" id="mobiletrigger">
+                    <img src="imagesB/icoonGroepswerk.png" alt="" id="mobiletrigger">
                 </button>
             </div>
         </nav>
@@ -124,7 +124,7 @@
     <section id="timeline">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 offset-2">
+                <div class="timeline-container col-lg-8 offset-lg-4">
                     <div class="row">
                         <h1 class="text-center">Projecten tijdslijn</h1>
                     </div>
@@ -142,10 +142,16 @@
                                                 <i class="fa fa-eye"></i>
                                                 <h4>Projecten</h4>
                                                 <div>
-                                                    <div class="row row-cols-3 p-3">
-                                                        <img class="img-fluid" src="images/php.jpg" alt="php">
-                                                        <img class="img-fluid" src="images/git.png" alt="git">
-                                                        <img class="img-fluid" src="images/javaScript.png" alt="javascript">
+                                                    <div class="row p-3">
+                                                        <div class="col-lg-4">
+                                                        <img class="img-fluid" src="imagesB/php.jpg" alt="php">
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                        <img class="img-fluid" src="imagesB/git.png" alt="git">
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                        <img class="img-fluid" src="imagesB/javaScript.png" alt="javascript">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -165,7 +171,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="roeselare" class="card-img-top" src="images/roeselare-jpg.jpg">
+                                                <img alt="roeselare" class="card-img-top" src="imagesB/roeselare-jpg.jpg">
                                                 <div class="card-body">
                                                     <h5 class="card-title"> 13/09/21 Eerste schooldag </h5>
                                                     <p class="card-text text-center">Begin van de opleiding Full stack Development. Eerste schooldag was niet "
@@ -185,7 +191,7 @@
                                                         </div>
                                                         <div class="modal-body">
                                                             <div>
-                                                                <img class="img-fluid" alt="php" src="images/php.jpg">
+                                                                <img class="img-fluid" alt="php" src="imagesB/php.jpg">
                                                             </div>
                                                             <div class="my-5">
                                                                 <hr>
@@ -194,14 +200,14 @@
                                                                     (Document Object Model).</p>
                                                                 <div>
                                                                     <p>The HTML DOM Tree of Objects</p>
-                                                                    <img class="img-fluid" src="images/dom-tree.jpg" alt="dom-tree">
+                                                                    <img class="img-fluid" src="imagesB/dom-tree.jpg" alt="dom-tree">
                                                                 </div>
                                                             </div>
                                                             <div class="my-5">
                                                                 <hr>
                                                                 <p class="m-0"> We hebben geleerd hoe we onszelf kunnen begroeten met Javascript</p>
                                                                 <hr>
-                                                                <img class="img-fluid"  src="images/dom2.jpg" alt="dom2">
+                                                                <img class="img-fluid"  src="imagesB/dom2.jpg" alt="dom2">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -218,7 +224,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/cmd.jpg">
+                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/cmd.jpg">
                                                 <div class="card-body">
                                                     <h5 class="card-title">14/09/21 Leren werken met GitHub</h5>
                                                     <p class="card-text">de eerste installatie van GitHub. We hebben geleerd hoe we onze projecten kunnen opladen en terug kunnen clonen</p>
@@ -235,14 +241,14 @@
                                                                     type="button"></button>
                                                         </div>
                                                         <div class="modal-body text-center">
-                                                            <img class="img-fluid" alt="test" src="images/git.png">
+                                                            <img class="img-fluid" alt="test" src="imagesB/git.png">
                                                             <hr>
                                                             <p> Na het aanmaken van een eigen account heeft Tom ons getoond, hoe je het best met Github kan werken </p>
                                                             <hr>
                                                         </div>
                                                         <div>
                                                             <p> We hebben de commando's geleerd hoe je een repository in je Github kunt zetten</p>
-                                                            <img class="img-fluid" src="images/cmd2.jpg" alt="2">
+                                                            <img class="img-fluid" src="imagesB/cmd2.jpg" alt="2">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -258,7 +264,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="for2" class="card-img-top" src="images/for2.png">
+                                                <img alt="for2" class="card-img-top" src="imagesB/for2.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">20/09/21 Iteraties</h5>
                                                     <p class="card-text"> In deze les hebben we geleerd wat een lus is en hoe je dit moet intigreren in
@@ -402,7 +408,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="sql2" class="card-img-top img-fluid" src="images/sql2.png">
+                                                <img alt="sql2" class="card-img-top img-fluid" src="imagesB/sql2.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">21/09/21 Databases</h5>
                                                     <p class="card-text">Eerste keer dat we leren werken in een database</p>
@@ -420,7 +426,7 @@
                                                                     type="button"></button>
                                                         </div>
                                                         <div class="modal-body text-center">
-                                                            <img alt="test" class="img-fluid" src="images/sql1.png">
+                                                            <img alt="test" class="img-fluid" src="imagesB/sql1.png">
                                                             <hr>
                                                             <p> Eerste keer een Wamp server installeren</p>
                                                             <hr>
@@ -429,7 +435,7 @@
                                                         <div>
                                                             <p> We hebben meerdere oefeningen gemaakt op de Databases waarbij wij ook hebben leren werken
                                                                 met een <b>Normalisatie</b> van een database</p>
-                                                            <img alt="2" class="img-fluid py-3" src="images/sql3.png">
+                                                            <img alt="2" class="img-fluid py-3" src="imagesB/sql3.png">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -452,10 +458,16 @@
                                                 <h4>Projecten</h4>
                                                 <div>
                                                     <div>
-                                                        <div class="row row-cols-3 p-3">
-                                                            <img class="img-fluid" src="images/prechu.png" alt="Prechu">
-                                                            <img class="img-fluid" src="images/minimo.png" alt="Minimo">
-                                                            <img class="img-fluid" src="images/blue.png" alt="Bluease">
+                                                        <div class="row  p-3">
+                                                            <div class="col-lg-4">
+                                                            <img class="img-fluid" src="imagesB/prechu.png" alt="Prechu">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                            <img class="img-fluid" src="imagesB/minimo.png" alt="Minimo">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                            <img class="img-fluid" src="imagesB/blue.png" alt="Bluease">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -474,7 +486,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/html.png">
+                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/html.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">1/10 Eerste les HTML/ CSS </h5>
                                                     <p class="card-text"> Eerste keer dat we starten met HTML </p>
@@ -492,7 +504,7 @@
                                                                     type="button"></button>
                                                         </div>
                                                         <div class="modal-body text-center">
-                                                            <img alt="test" class="img-fluid" src="images/html2.png">
+                                                            <img alt="test" class="img-fluid" src="imagesB/html2.png">
                                                             <hr>
                                                             <p> Eerste keer leren werken met HTML/CSS die nog op de oude manier.</p>
                                                             <hr>
@@ -513,7 +525,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/prechu.png">
+                                                <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/prechu.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">08/10 Eerste project Prechu</h5>
                                                     <p class="card-text"> Prechu </p>
@@ -532,7 +544,7 @@
                                                         <div class="modal-body text-center">
                                                             <p> In <b>Prechu</b> hebben we verschillende leuke effecten leren maken, zoals een afgerond
                                                                 item, Hero en tekst op een hero</p>
-                                                            <img alt="hero" class="img-fluid" src="images/prechu.png">
+                                                            <img alt="hero" class="img-fluid" src="imagesB/prechu.png">
                                                             <hr>
                                                             <p>Het was veel zwoegen en zweten voor velen van ons om dit goed in onze vingers te krijgen.
                                                                 Uiteindelijk zijn we hier allemaal <b>TOP</b> Frond-End-Devs</p>
@@ -552,7 +564,7 @@
                                                     <div>
                                                         <i class="fa fa-eye"></i>
                                                     </div>
-                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/minimo.png">
+                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/minimo.png">
                                                     <div class="card-body">
                                                         <h5 class="card-title">11/10 Minimo </h5>
                                                         <p class="card-text"> Minimo, hier leerden we om met CSS de content van een website uit te lijnen</p>
@@ -569,10 +581,10 @@
                                                                         type="button"></button>
                                                             </div>
                                                             <div class="modal-body text-center">
-                                                                <img alt="test" class="img-fluid" src="images/minimo2.png">
+                                                                <img alt="test" class="img-fluid" src="imagesB/minimo2.png">
 
                                                                 <p class="py-3"> Een perfecte uitlijnen van de tekst die zelfs mobiel zeer goed te zien is</p>
-                                                                <img alt="m3" class="img-fluid" src="images/minimo3.png">
+                                                                <img alt="m3" class="img-fluid" src="imagesB/minimo3.png">
                                                                 <p> We hebben ook geleerd hoe je een e-mail adres kan invoegen in een pagina</p>
                                                             </div>
 
@@ -592,7 +604,7 @@
                                                     <div>
                                                         <i class="fa fa-eye"></i>
                                                     </div>
-                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/blue.png">
+                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/blue.png">
                                                     <div class="card-body">
                                                         <h5 class="card-title">12/10 BluEasy </h5>
                                                         <p class="card-text"> Blue Easy project, met verschillende addertjes onder het gras. </p>
@@ -609,7 +621,7 @@
                                                                         type="button"></button>
                                                             </div>
                                                             <div class="modal-body text-center">
-                                                                <img alt="test" class="img-fluid" src="images/blue2.png">
+                                                                <img alt="test" class="img-fluid" src="imagesB/blue2.png">
                                                                 <hr>
                                                                 <p> Hier was het zeer belangerijk om je <b>Classes</b> correct toe te passen</p>
                                                                 <hr>
@@ -637,7 +649,7 @@
                                                     <div>
                                                         <i class="fa fa-eye"></i>
                                                     </div>
-                                                    <img alt="..." class="card-img-top img-fluid" src="images/boot.png">
+                                                    <img alt="..." class="card-img-top img-fluid" src="imagesB/boot.png">
                                                     <div class="card-body">
                                                         <h5 class="card-title">14/10 Bootstrap </h5>
                                                         <p class="card-text"> Mobile first Front-End </p>
@@ -655,12 +667,12 @@
                                                             </div>
                                                             <div class="modal-body text-center">
 
-                                                                <img alt="boot" class="img-fluid" src="images/boot2.png">
+                                                                <img alt="boot" class="img-fluid" src="imagesB/boot2.png">
                                                                 <hr>
                                                                 <p> Na de installatie van Bootstrap was het tijd om een design met C-kolommen op te ontleden</p>
                                                                 <hr>
                                                                 <p> Na het instellen van de hulplijnen in Photoshop, kan je grondig in je PS de gutters zien</p>
-                                                                <img alt="grid" class="img-fluid py-3" src="images/grid.png">
+                                                                <img alt="grid" class="img-fluid py-3" src="imagesB/grid.png">
                                                                 <p> Zo kan je als een newby designer beter je Site stylen</p>
                                                             </div>
 
@@ -680,7 +692,7 @@
                                                     <div>
                                                         <i class="fa fa-eye"></i>
                                                     </div>
-                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="images/pararelis.png">
+                                                    <img alt="Maxwell Admin" class="card-img-top img-fluid" src="imagesB/pararelis.png">
                                                     <div class="card-body">
                                                         <h5 class="card-title">25/10 Paralells </h5>
                                                         <p class="card-text"> Groepsproject Parallels </p>
@@ -699,7 +711,7 @@
                                                             <div class="modal-body text-center">
                                                                 <p class="py-3">OP 25/10 hebben we van Tom onze eerste <b>Groepswerk</b> ontvangen</p>
                                                                 <br>
-                                                                <img alt="par" class="img-fluid" src="images/par.png">
+                                                                <img alt="par" class="img-fluid" src="imagesB/par.png">
                                                                 <hr>
                                                                 <p>Door een willekeurige loting werden we in groepjes van 2 verdeeld</p>
                                                                 <hr>
@@ -726,9 +738,13 @@
                                                 <h4>Projecten</h4>
                                                 <div>
                                                     <div>
-                                                        <div class="row row-cols-2 p-3">
-                                                            <img class="img-fluid" src="images/anima.png" alt="Animation">
-                                                            <img class="img-fluid" src="images/advf.png" alt="fronted">
+                                                        <div class="row  p-3">
+                                                            <div class="col-lg-6">
+                                                            <img class="img-fluid" src="imagesB/anima.png" alt="Animation">
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                            <img class="img-fluid" src="imagesB/advf.png" alt="fronted">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -748,7 +764,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="Maxwell Admin" class="card-img-top img-fluid p-3" src="images/anima.png">
+                                                <img alt="Maxwell Admin" class="card-img-top img-fluid p-3" src="imagesB/anima.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">08/11 Animations</h5>
                                                     <p class="card-text"> Diverse mogelijkheden om een animatie tot leven te brengen </p>
@@ -809,7 +825,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="Maxwell Admin" class="card-img-top img-fluid p-3" src="images/advf.png">
+                                                <img alt="Maxwell Admin" class="card-img-top img-fluid p-3" src="imagesB/advf.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title">09/11 Advanced Frontend - code in JavaScript</h5>
                                                     <p class="card-text"> In deze les werden we een voorproefje van wat BAckend code inhoudt ( min of meer)</p>
@@ -831,7 +847,7 @@
                                                             <p> <b>De eerste les na de vakantie was alweer pittig</b> </p>
                                                             <hr>
                                                             <p> Een kleine preview hoe de les gegeven werd </p>
-                                                            <img class="img-fluid" src="images/charlie-day.gif" alt="les">
+                                                            <img class="img-fluid" src="imagesB/charlie-day.gif" alt="les">
 
                                                         </div>
                                                         <div>
@@ -903,8 +919,10 @@
                                                 <h4>Projecten</h4>
                                                 <div>
                                                     <div>
-                                                        <div class="row row-cols-1 p-3">
-                                                            <img class="img-fluid" src="images/adventure.png" alt="Adventure">
+                                                        <div class="row  p-3">
+                                                            <div class="col-lg-12">
+                                                            <img class="img-fluid" src="imagesB/adventure.png" alt="Adventure">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -922,7 +940,7 @@
                                                 <div>
                                                     <i class="fa fa-eye"></i>
                                                 </div>
-                                                <img alt="adventure" class="card-img-top img-fluid" src="images/adventure.png">
+                                                <img alt="adventure" class="card-img-top img-fluid" src="imagesB/adventure.png">
                                                 <div class="card-body">
                                                     <h5 class="card-title"> Nog te ontdekken</h5>
                                                     <p class="card-text"> Deze brainkraker moet nog ontrafeld worden </p>
@@ -960,9 +978,7 @@
     </section>
 </main>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/scriptB.js"></script>
+
 <footer>
     <div id="info">
         <div class="container-fluid">
@@ -985,5 +1001,8 @@
         </div>
     </div>
 </footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/scriptB.js"></script>
 </body>
 </html>
