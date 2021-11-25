@@ -1,5 +1,5 @@
 
-import './androidstudio.js';
+//import './androidstudio.js';
 
 let generate_button = document.getElementById('generate-btn');
 generate_button.addEventListener('click',generate_carousel);
