@@ -91,7 +91,7 @@ function generate_carousel(){
 
     var element = document.getElementById("carouselExample");
     var myCarousel = new bootstrap.Carousel(element);
-    myCarousel.cycle();
+        myCarousel.cycle();
     hljs.highlightAll();
 
 
